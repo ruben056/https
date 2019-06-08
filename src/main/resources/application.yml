@@ -1,0 +1,26 @@
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-alias: tomcat-localhost
+    key-password: zimzimma
+    key-store: classpath:keystore.p12
+    key-store-type: PKCS12
+    key-store-password: zimzimma
+ 
+logging.level:
+  org.springframework: TRACE
+  org.apache.tomcat: DEBUG
+  org.apache.catalina: DEBUG
+   
+server.tomcat.accesslog:
+  enabled: true
+  suffix: .log
+  prefix: access_log
+  file-date-format: .yyyy-MM-dd
+  directory: logs
+  
+server.tomcat.basedir: tomcat
+
+
+     

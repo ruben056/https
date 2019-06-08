@@ -1,0 +1,59 @@
+### Linux ###
+.*
+!.gitignore
+!.git*
+*~
+
+# Logs
+*.log
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+### Java ###
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+### Gradle ###
+# Exclude Folder List #
+.gradle/
+build/
+
+
+### Eclipse ###
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+### IntelliJ ###
+*.iml
+*.ipr
+*.iws
+.idea/
+
+/bin
